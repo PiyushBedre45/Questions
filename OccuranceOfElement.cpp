@@ -63,7 +63,7 @@ int secondOccurance(int arr[], int n, int key)
 int main()
 {
     int arr[6] = {1, 2, 3, 3, 3, 4};
-    cout << "First occurance of element is : " << firstOccurance(arr, 6, 3);
+    cout << "First occurance of element at index : " << firstOccurance(arr, 6, 3);
     cout << endl;
-    cout << "Second occurance of element is : " << secondOccurance(arr, 6, 3);
+    cout << "Second occurance of element at index : " << secondOccurance(arr, 6, 3);
 }
